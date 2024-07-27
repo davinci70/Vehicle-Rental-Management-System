@@ -1,0 +1,9 @@
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\BusinessLayer\obj\Debug\BusinessLayer.pdb

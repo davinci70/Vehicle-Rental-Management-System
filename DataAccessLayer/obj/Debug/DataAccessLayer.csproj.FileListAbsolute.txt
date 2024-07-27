@@ -1,0 +1,6 @@
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\pc\My_battlefield\C#\VehicleRentalManagmentSystem\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
