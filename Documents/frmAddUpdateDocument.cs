@@ -108,6 +108,8 @@ namespace VehicleRentalManagmentSystem.Documents
 
             if (_Document.Save())
             {
+                btnSave.Enabled = false;
+
                 MessageBox.Show("Data Saved Successfully", "Saved",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }

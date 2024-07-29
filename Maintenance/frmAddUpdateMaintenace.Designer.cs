@@ -592,7 +592,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmAddUpdateMaintenace";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmAddUpdateMaintenace";
+            this.Text = "Add Vehicle To Maintenance";
             this.Load += new System.EventHandler(this.frmAddUpdateMaintenace_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tcVehicleMaintenance.ResumeLayout(false);

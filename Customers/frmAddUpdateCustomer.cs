@@ -138,6 +138,9 @@ namespace VehicleRentalManagmentSystem.Customers
 
             if (_Customer.Save())
             {
+                if (_Mode == enMode.AddNew)
+                    _ResetDefaultValues();
+
                 MessageBox.Show("Customer has been saved successfuly!", "Saved",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }

@@ -125,6 +125,9 @@ namespace VehicleRentalManagmentSystem.Users
             // save data
             if (_User.Save())
             {
+                if (_Mode == enMode.AddNew)
+                    _ResetDefaultValues();
+
                 MessageBox.Show("User has been saved successfuly!", "Saved",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 

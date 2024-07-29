@@ -147,10 +147,10 @@
             this.tcSettings.Location = new System.Drawing.Point(64, 168);
             this.tcSettings.Multiline = true;
             this.tcSettings.Name = "tcSettings";
-            this.tcSettings.Page = this.tabMaintenance;
-            this.tcSettings.PageIndex = 3;
-            this.tcSettings.PageName = "tabMaintenance";
-            this.tcSettings.PageTitle = "Maintenance";
+            this.tcSettings.Page = this.tabUsers;
+            this.tcSettings.PageIndex = 2;
+            this.tcSettings.PageName = "tabUsers";
+            this.tcSettings.PageTitle = "tabPage3";
             this.tcSettings.SelectedIndex = 0;
             this.tcSettings.Size = new System.Drawing.Size(1000, 442);
             this.tcSettings.TabIndex = 27;

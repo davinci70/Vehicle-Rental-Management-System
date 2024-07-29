@@ -670,6 +670,7 @@
             this.txtYear.TextPlaceholder = "";
             this.txtYear.UseSystemPasswordChar = false;
             this.txtYear.WordWrap = true;
+            this.txtYear.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtYear_KeyPress);
             this.txtYear.Validating += new System.ComponentModel.CancelEventHandler(this.txtYear_Validating);
             // 
             // label2
@@ -929,6 +930,7 @@
             this.txtMilage.TextPlaceholder = "";
             this.txtMilage.UseSystemPasswordChar = false;
             this.txtMilage.WordWrap = true;
+            this.txtMilage.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMilage_KeyPress);
             this.txtMilage.Validating += new System.ComponentModel.CancelEventHandler(this.txtMilage_Validating);
             // 
             // label11
@@ -1015,6 +1017,7 @@
             this.txtPricePerDay.TextPlaceholder = "";
             this.txtPricePerDay.UseSystemPasswordChar = false;
             this.txtPricePerDay.WordWrap = true;
+            this.txtPricePerDay.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPricePerDay_KeyPress);
             this.txtPricePerDay.Validating += new System.ComponentModel.CancelEventHandler(this.txtPricePerDay_Validating);
             // 
             // openFileDialog1

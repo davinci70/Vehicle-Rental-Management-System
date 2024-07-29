@@ -147,6 +147,9 @@ namespace VehicleRentalManagmentSystem.Vehicles
 
             if (_Vehicle.Save())
             {
+                if (_Mode == enMode.AddNew)
+                    _ResetDefaultValues();
+
                 MessageBox.Show("Vehicle has been saved successfuly!", "Saved",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -261,6 +264,21 @@ namespace VehicleRentalManagmentSystem.Vehicles
             {
                 errorProvider1.SetError(txtPricePerDay, null);
             }
+        }
+
+        private void txtYear_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        private void txtMilage_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        private void txtPricePerDay_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) && e.KeyChar != '.';
         }
     }
 }

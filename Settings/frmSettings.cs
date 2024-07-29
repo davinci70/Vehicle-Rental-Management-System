@@ -144,6 +144,8 @@ namespace VehicleRentalManagmentSystem.Settings
 
         private void frmSettings_Load(object sender, EventArgs e)
         {
+            btnVehicleCategories.PerformClick();
+
             // load gathered data
             _LoadData();
         }
